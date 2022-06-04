@@ -1,0 +1,61 @@
+/* Old Header Color: #63585E */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color: #292426;
+    height: 2000px;
+}
+
+.header{
+    position: fixed; top: 0; left: 0; right: 0;
+    background-color: #63585E;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #CEFDFF;
+}
+
+.options{
+    display: flex;
+}
+
+.options div{
+    transition: 350ms;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.options div:hover{
+    background-color: #53494f;
+}
+
+.name span{
+    transition: 350ms;
+    font-weight: 400;
+}
+
+.name h1{
+    font-weight: 600;
+}
+
+.name{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.just-initials{
+    transition: transform 1s 0s;
+    transform: translateX(-131px);
+}
+
+.all-letters{
+    transition: 375ms;
+}
