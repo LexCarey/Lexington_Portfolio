@@ -1,0 +1,107 @@
+.angle {
+    position: relative;
+}
+
+.angle:after {
+    content: '';
+    position: absolute;
+}
+
+.color1{
+    background-color: #CEFDFF;
+    height: 800px;
+    color: #292426;
+}
+
+.color2{
+    background-color: #B9C0DA;
+    height: 800px;
+    color: #292426;
+}
+
+.color3{
+    background-color: #004346;
+    height: 800px;
+    color: #292426;
+}
+
+
+/* ANGLE 1 */
+.angle1,
+.angle1:after {
+    height: 100px;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .angle1,
+    .angle1:after {
+    height: 175px;
+    }
+}
+
+.angle1 {
+    background-color: #292426;
+}
+
+.angle1:after {
+    background-color: #CEFDFF;
+    display: flex;
+    justify-content: center;
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+
+/* ANGLE 2 */
+.angle2,
+.angle2:after {
+    height: 100px;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .angle2,
+    .angle2:after {
+    height: 175px;
+    }
+}
+
+.angle2 {
+    background-color: #CEFDFF;
+}
+
+.angle2:after {
+    background-color: #B9C0DA;
+    display: flex;
+    justify-content: center;
+    -webkit-clip-path: polygon(69% 84%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+            clip-path: polygon(69% 84%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+}
+
+
+/* ANGLE 3 */
+.angle3,
+.angle3:after {
+    height: 100px;
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .angle3,
+    .angle3:after {
+    height: 175px;
+    }
+}
+
+.angle3 {
+    background-color: #B9C0DA;
+}
+
+.angle3:after {
+    background-color: #004346;
+    display: flex;
+    justify-content: center;
+    -webkit-clip-path: polygon(24% 40%, 71% 19%, 100% 47%, 100% 100%, 0 100%, 0 0);
+            clip-path: polygon(24% 40%, 71% 19%, 100% 47%, 100% 100%, 0 100%, 0 0);
+}
