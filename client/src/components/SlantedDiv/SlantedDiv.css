@@ -1,3 +1,7 @@
+.main-div{
+    padding: 125px 50px;
+}
+
 .angle {
     position: relative;
 }
@@ -9,19 +13,16 @@
 
 .color1{
     background-color: #CEFDFF;
-    height: 800px;
     color: #292426;
 }
 
 .color2{
     background-color: #B9C0DA;
-    height: 800px;
     color: #292426;
 }
 
 .color3{
     background-color: #004346;
-    height: 800px;
     color: #292426;
 }
 

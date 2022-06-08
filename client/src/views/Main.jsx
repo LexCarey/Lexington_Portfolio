@@ -9,7 +9,7 @@ const Main = () => {
         <div>
             <Header />
             <div className='center hey'>
-                <p>Hey, I'm Lexington. <br /> I'm a Full Stack Developer</p>
+                <p>Hey! I'm Lexington, <br /> a Full Stack Developer <br /> based in Los Angeles </p>
             </div>
             <SlantedDiv angleNumber="angle1" color="color1" content={<About />} />
             <SlantedDiv angleNumber="angle2" color="color2" />
