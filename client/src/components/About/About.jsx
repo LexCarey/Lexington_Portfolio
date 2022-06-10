@@ -15,11 +15,11 @@ const About = () => {
                 <div className='about2'>
                 <h1>Who is Lexington?</h1>
                     <p>
-                        To put it simply, I'm a problem solver. To put it not so simply... Well, I'm still a problem solver, but now with more detail! Finding a new bug or error always intrigues me because it gives me new chance to learn and develop new ways of thinking. 
+                        To put it simply, I'm a problem solver. To put it not so simply... Well, I'm still a problem solver, but now with a bit more detail! When faced with a new bug or error, I'm always interested because I believe it gives me a chance to learn and develop new ways of thinking.
                     </p>
                         <br />
                     <p>
-                    There's nothing I love more than collaborating with others and seeing a product I played a role in come to life. Being in an environment where I can create, learn, and make new connections is where I do my best work!
+                        There's nothing I love more than collaborating with others and seeing a product I played a role in come to life. Being in an environment where I can create, learn, and make new connections is where I thrive!
                     </p>
                         <br /> <br />
                     <h1>Discovering My Love For Coding</h1>
@@ -41,3 +41,5 @@ const About = () => {
 }
 
 export default About
+
+// Ever since I was young I've been interested in how things work, so finding a new bug or error always intrigues me because it gives me a chance to learn and develop new ways of thinking. 
