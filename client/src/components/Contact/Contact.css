@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul a{
+    color: #B9C0DA;
+    text-decoration: none;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+}
