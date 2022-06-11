@@ -1,16 +1,38 @@
-import React from 'react'
 import './EmailForm.css'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const EmailForm = () => {
+export const EmailForm = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_0a8trgo', 'portfolio_template', form.current, 'RhEvl5hur3DgNAMMD')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    form.current.reset()
+    };
+
     return (
-        <div className='email-form'>
-            <form>
-                <input className='w100' type="text"/>
-                <input className='w100' type="text"/>
-                <input className='w100 h' type="text"/>
-            </form>
-        </div>
-    )
-}
+    <div className='email-form'>
+        <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input className='' type="text" name="name" />
+            <br />
+            <label>Email</label>
+            <input type="email" name="email" />
+            <br />
+            <label>Message</label>
+            <textarea name="message" />
+            <br />
+            <input type="submit" value="Send" />
+        </form>
+    </div>
+    );
+};
 
 export default EmailForm
