@@ -7,8 +7,10 @@ import { faLinkedin, faTwitter, faInstagram, faGithub } from '@fortawesome/free-
 const Contact = () => {
     return (
     <div className='contact'>
-        <h1>Find my on these online spaces or shoot me an email!</h1>
+        <h2 style={{textAlign: "left"}}>Contact</h2>
+        <h1 style={{textAlign: "left"}}>Shoot Me An Email Here!</h1>
         <div className='contact flex'>
+        <EmailForm />
             <div className='socials'>
                 <ul>
                     <li>
@@ -24,8 +26,8 @@ const Contact = () => {
                         <a href="https://github.com/LexCarey" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                     </li>
                 </ul>
+                <h1></h1>
             </div>
-            <EmailForm />
         </div>
     </div>
     )

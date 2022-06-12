@@ -15,7 +15,7 @@ const About = () => {
                 <div className='about2'>
                 <h1>Who is Lexington?</h1>
                     <p>
-                        To put it simply, I'm a problem solver. To put it not so simply... Well, I'm still a problem solver, but now with a bit more detail! When faced with a new bug or error, I'm always interested because I believe it gives me a chance to learn and develop new ways of thinking.
+                        To put it simply, I'm a problem solver. To put it not so simply... Well, I'm still a problem solver, but now with a bit more detail! When faced with a new bug or error, I'm always intrigued because I believe it gives me a chance to learn and develop new ways of thinking.
                     </p>
                         <br />
                     <p>
@@ -32,7 +32,7 @@ const About = () => {
                     </p>
                         <br />
                     <p>
-                        In February of 2022, I took on a coding bootcamp by the name of Coding Dojo. Over the course of 14 weeks I put in over 1,000 hours of hard work learning to create full stack websites in multiple languages. It was one of the greatest experiences I've been a part of, not only because of the knowledge I've gained, but becuase of the amazing connections I've made.
+                        In February of 2022, I took on a coding bootcamp by the name of Coding Dojo. Over the course of 14 weeks I put in over 1,000 hours of hard work learning to create full stack websites in multiple languages. It was one of the greatest experiences I've been a part of, not only because of the knowledge I gained, but becuase of the amazing connections that were made.
                     </p>
                 </div>
             </div>
