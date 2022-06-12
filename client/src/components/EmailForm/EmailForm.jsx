@@ -20,14 +20,13 @@ export const EmailForm = () => {
     return (
     <div className='email-form'>
         <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input className='' type="text" name="name" />
+            <input className='w100' type="text" name="subject" placeholder='Subject' />
             <br />
-            <label>Email</label>
-            <input type="email" name="email" />
-            <br />
-            <label>Message</label>
-            <textarea name="message" />
+            <div className='flex'>
+                <input className='w50 marg-r-10' type="text" name="name" placeholder='Name' />
+                <input className='w50' type="email" name="email" placeholder='Email' />
+            </div>
+            <textarea className='w100' name="message" placeholder='Message' rows="6" />
             <br />
             <input type="submit" value="Send" />
         </form>
