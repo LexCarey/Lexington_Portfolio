@@ -34,9 +34,7 @@ const ProjectDisplay = () => {
                             <a target="_blank" href="https://github.com/LexCarey/invrt">GitHub</a> | <a target="_blank" href="">Live Site</a>
                         </h4>
                     </div>
-                    <video autoPlay loop muted>
-                        <source src={require('./Demos/Amplifire_Demo.mp4')} type="video/mp4" />
-                    </video>
+                    <img src={require('./Demos/Invrt_Demo_Img.png')} alt="" />
                 </div>
             </div>
         </div>
