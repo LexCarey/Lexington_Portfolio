@@ -2,14 +2,20 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+
+    const copyToClipboard = () => {
+        navigator.clipboard.writeText("LexCarey73@gmail.com")
+        alert("Copied!")
+    }
+
     return (
         <footer>
             <div>
-                Thanks for checking out my portfolio site!
+                <p>Thanks for checking out my portfolio site!</p>
             </div>
             <div className='right-footer'>
-                <p className='email'>Lexington Carey</p>
-                <p>LexCarey73@gmail.com</p>
+                <p onClick={() => copyToClipboard()} id="copy-email" className='divide'>LexCarey73@gmail.com</p>
+                <p>Click my email above to copy it</p>
             </div>
         </footer>
     )
