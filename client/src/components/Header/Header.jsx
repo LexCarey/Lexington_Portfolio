@@ -26,17 +26,17 @@ const Header = () => {
 
     return (
     <div className='header'>
-        <div className='name'>
+        <div className='name' onClick={() => document.getElementById('intro').scrollIntoView()}>
             <h1>L<span className='not-initials'>exington</span></h1><h1 className='c'>C<span className='not-initials2'>arey</span></h1>
         </div>
         <div className='options'>
-            <div>
+            <div onClick={() => document.getElementById('about').scrollIntoView()}>
                 <p>About</p>
             </div>
-            <div>
+            <div onClick={() => document.getElementById('projects').scrollIntoView()}>
                 <p>Projects</p>
             </div>
-            <div>
+            <div onClick={() => document.getElementById('contact').scrollIntoView()}>
                 <p>Contact</p>
             </div>
         </div>

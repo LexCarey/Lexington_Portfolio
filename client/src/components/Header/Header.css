@@ -45,6 +45,7 @@
 .name{
     display: flex;
     overflow-x: hidden;
+    cursor: pointer;
 }
 
 .just-initials{
