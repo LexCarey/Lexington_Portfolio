@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer>
             <div>
-                <p>Thanks for checking out my portfolio site!</p>
+                <p>Thanks for checking out my portfolio!</p>
             </div>
             <div className='right-footer'>
                 <p onClick={() => copyToClipboard()} id="copy-email" className='divide'>LexCarey73@gmail.com</p>

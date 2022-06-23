@@ -1,42 +1,23 @@
 import React from 'react'
+import ProjectLeft from '../OneProject/ProjectLeft/ProjectLeft'
+import ProjectRight from '../OneProject/ProjectRight/ProjectRight'
 import './ProjectDisplay.css'
 
 const ProjectDisplay = () => {
+
+    const fullscreenVideo = (video) => {
+        document.getElementById(video).style.display = "block"
+    }
+
+    const exitFullscreen = (video) => {
+        document.getElementById(video).style.display = "none"
+    }
+
     return (
         <div className='projects'>
             <h2>Projects</h2>
-
-            <div className='project-left'>
-                <h1>AmpliFire</h1>
-                <div className='project'>
-                    <video autoPlay loop muted>
-                        <source src={require('./Demos/Amplifire_Demo.mp4')} type="video/mp4" />
-                    </video>
-                    <div>
-                        <p>
-                            AmpliFire is a music based social media platform where you can share your excitement, talk with others, and post your musical hot takes under many different genres. Find people with similar music taste as you by filtering through your favorite genres!
-                        </p>
-                        <h4>
-                            <a target="_blank" href="https://github.com/LexCarey/AmpliFire">GitHub</a> | <a target="_blank" href="">Live Site</a>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-
-            <div className='project-right'>
-                <h1>Invrt</h1>
-                <div className='project'>
-                    <div>
-                        <p>
-                            Invrt is an eCommerce site I created for my friends clothing brand, INVRT.  Working in a collaborative setting where I could communicate with a close friend and recieve real feedback made this one of my favorite projects to work on.
-                        </p>
-                        <h4>
-                            <a target="_blank" href="https://github.com/LexCarey/invrt">GitHub</a> | <a target="_blank" href="">Live Site</a>
-                        </h4>
-                    </div>
-                    <img src={require('./Demos/Invrt_Demo_Img.png')} alt="" />
-                </div>
-            </div>
+            <ProjectLeft name="AmpliFire" source='Amplifire_Demo.mp4' github="https://github.com/LexCarey/AmpliFire" live="" desc="AmpliFire is a music based social media platform where you can share your excitement, talk with others, and post your musical hot takes under many different genres. Find people with similar music taste as you by filtering through your favorite genres!" full={fullscreenVideo} exit={exitFullscreen}/>
+            <ProjectRight name="Invrt" source='Invrt_Demo_Img.png' github="https://github.com/LexCarey/invrt" live="" desc="Invrt is an eCommerce site I created for my friends clothing brand, INVRT.  Working in a collaborative setting where I could communicate with a close friend and recieve real feedback made this one of my favorite projects to work on." full={fullscreenVideo} exit={exitFullscreen}/>
         </div>
     )
 }

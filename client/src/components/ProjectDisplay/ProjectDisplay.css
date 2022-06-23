@@ -46,9 +46,15 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-height: 60vh;
+    max-height: 50vh;
     width: 100vw;
-    z-index: 9999;
     cursor: default;
 }
 
+.fullscreen{
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 9999;
+    display: none;
+}
