@@ -29,9 +29,12 @@ const ProjectLeft = (props) => {
             </div>
 
             <div id={name} className='fullscreen' onClick={() => exit(name)}>
-                <video id="fullscreen-video" autoPlay loop muted>
-                    <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
-                </video>
+                <div>
+                    <video id="fullscreen-video" autoPlay loop muted>
+                        <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
+                    </video>
+                    <p>Click anywhere to close.</p>
+                </div>
             </div>
         </div>
     )

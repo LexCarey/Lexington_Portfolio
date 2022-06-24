@@ -6,7 +6,7 @@ import './ProjectDisplay.css'
 const ProjectDisplay = () => {
 
     const fullscreenVideo = (video) => {
-        document.getElementById(video).style.display = "block"
+        document.getElementById(video).style.display = "flex"
     }
 
     const exitFullscreen = (video) => {

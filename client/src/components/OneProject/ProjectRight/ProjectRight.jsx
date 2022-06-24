@@ -35,7 +35,10 @@ const ProjectRight = (props) => {
             </div>
 
             <div id={name} className='fullscreen' onClick={() => exit(name)}>
-            <img id="fullscreen-video" src={require('../../ProjectDisplay/Demos/' + source)} alt=""/>
+                <div>
+                    <img id="fullscreen-video" src={require('../../ProjectDisplay/Demos/' + source)} alt=""/>
+                    <p>Click anywhere to close.</p>
+                </div>
             </div>
         </div>
     )
