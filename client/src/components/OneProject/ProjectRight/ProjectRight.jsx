@@ -14,7 +14,7 @@ const ProjectRight = (props) => {
             <div className='project-right'>
                 <h1>{name}</h1>
                 <div className='project'>
-                    <div>
+                    <div className='right-large'>
                         <p>
                             {desc}
                         </p>
@@ -23,6 +23,14 @@ const ProjectRight = (props) => {
                         </h4>
                     </div>
                     <img src={require('../../ProjectDisplay/Demos/' + source)} alt="" onClick={() => full(name)}/>
+                    <div className='right-small'>
+                        <p>
+                            {desc}
+                        </p>
+                        <h4>
+                            <a target="_blank" href={github}>GitHub</a> | <a target="_blank" href={live}>Live Site</a>
+                        </h4>
+                    </div>
                 </div>
             </div>
 
