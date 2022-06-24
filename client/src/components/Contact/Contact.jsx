@@ -9,7 +9,7 @@ const Contact = () => {
     <div className='contact'>
         <h2 style={{textAlign: "left"}}>Contact</h2>
         <h1 style={{textAlign: "left"}}>Shoot Me An Email Here!</h1>
-        <div className='contact flex'>
+        <div className='contact-flex'>
         <EmailForm />
             <div className='socials'>
                 <ul>
