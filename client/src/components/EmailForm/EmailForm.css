@@ -4,21 +4,21 @@
     text-align: right;
 }
 
-.email-form input[type=text], .email-form input[type=email], .email-form textarea{
+/* .email-form input[type=text], .email-form input[type=email], .email-form textarea{
     padding: 15px;
     border: none;
     border-bottom: 3px solid #8f9cca;
     font-size: 1em;
-}
+} */
 
-textarea{
+/* textarea{
     resize: none;
     margin-bottom: 10px;
 }
 
 textarea:focus, input:focus{
     outline: none;
-}
+} */
 
 input[type=submit]{
     padding: 13px 50px;
@@ -28,6 +28,7 @@ input[type=submit]{
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 input[type=submit]:hover{
@@ -39,28 +40,16 @@ input[type=submit]:active{
     background-color: #808fc4;
 }
 
-
-.w100{
-    width: 100%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-.w50{
-    width: 50%;
-}
-
-.marg-r-10{
-    margin-right: 15px;
-}
-
-.h{
-    height: 100px;
+.marg-r-15{
+    margin-right: 15px !important;
 }
 
 .flex{
     display: flex;
     width: 100%;
     margin: 15px 0;
+}
+
+.text-field{
+    background-color: white;
 }
