@@ -69,7 +69,7 @@ export const EmailForm = () => {
             variant="filled"
             name='message'
             multiline
-            minRows={4}
+            minRows={5}
             maxRows={8}/>
             <br />
             <input type="submit" value="Send"/>
