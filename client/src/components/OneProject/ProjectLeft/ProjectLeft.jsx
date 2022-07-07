@@ -1,20 +1,25 @@
-import React from 'react'
+import { React, useState } from 'react';
+import Modal from '../../Modal/Modal';
 
 const ProjectLeft = (props) => {
-    const { name, source, github, live, desc, full, exit } = props
+    const { name, source, github, live, desc } = props
+    const [isOpen, setIsOpen] = useState(false)
 
-    window.addEventListener("scroll", () => {
-        if (document.getElementById(name).style.display != "none") {
-            document.getElementById(name).style.display = "none"
-        }
-    });
+    const openAndStopScrolling = () => {
+        setIsOpen(true)
+        document.body.style.overflowY = 'hidden';
+    }
+    const closeAndScroll = () => {
+        setIsOpen(false)
+        document.body.style.overflowY = '';
+    }
 
     return (
         <div>
             <div className='project-left'>
                 <h1>{name}</h1>
                 <div className='project'>
-                    <video autoPlay loop muted onClick={() => full(name)}>
+                    <video autoPlay loop muted onClick={() => openAndStopScrolling()}>
                         <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
                     </video>
                     <div>
@@ -28,14 +33,14 @@ const ProjectLeft = (props) => {
                 </div>
             </div>
 
-            <div id={name} className='fullscreen' onClick={() => exit(name)}>
+            <Modal open={isOpen} onClose={() => closeAndScroll()}>
                 <div>
                     <video id="fullscreen-video" autoPlay loop muted>
                         <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
                     </video>
                     <p>Click anywhere to close.</p>
                 </div>
-            </div>
+            </Modal>
         </div>
     )
 }
