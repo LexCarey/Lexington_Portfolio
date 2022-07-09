@@ -28,11 +28,11 @@ const About = () => {
                     </p>
                         <br />
                     <p>
-                        I knew what coding was, but if I'm being honest, I was pretty intimidated by the sheer amount of options and routes I could take. Eventually I just decided to take a leap of faith and start learning.
+                        I knew what coding was, but if I'm being honest, I was pretty intimidated by the sheer amount of options and routes I could take. Eventually, I just decided to take a leap of faith and start learning.
                     </p>
                         <br />
                     <p>
-                        In February of 2022, I took on a coding bootcamp by the name of Coding Dojo. Over the course of 14 weeks I put in over 1,000 hours of hard work learning to create full stack websites in multiple languages. It was one of the greatest experiences I've been a part of, not only because of the knowledge I gained, but becuase of the amazing connections that were made.
+                        In February of 2022, I took on a coding bootcamp by the name of Coding Dojo. Over the course of 14 weeks I put in over 1,000 hours of hard work learning to create full stack websites in multiple languages. It was one of the greatest experiences I've been a part of, not only becuase of the knowledge I gained, but becuase of the amazing connections that were made.
                     </p>
                 </div>
             </div>
