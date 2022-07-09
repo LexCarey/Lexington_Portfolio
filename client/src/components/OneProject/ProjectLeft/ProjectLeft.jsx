@@ -17,7 +17,7 @@ const ProjectLeft = (props) => {
     return (
         <div>
             <div className='project-left'>
-                <h1>{name}</h1>
+                <h1 class="project-name">{name}</h1>
                 <div className='project'>
                     <video autoPlay loop muted onClick={() => openAndStopScrolling()}>
                         <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
@@ -27,7 +27,7 @@ const ProjectLeft = (props) => {
                             {desc}
                         </p>
                         <h4>
-                            <a target="_blank" href={github}>GitHub</a> | <a target="_blank" href={live}>Live Site</a>
+                            <a target="_blank" href={github}>GitHub</a> {live && <p>| <a target="_blank" href={live}>Live Site</a></p>}
                         </h4>
                     </div>
                 </div>

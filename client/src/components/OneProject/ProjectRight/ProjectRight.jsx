@@ -17,7 +17,7 @@ const ProjectRight = (props) => {
     return (
         <div>
             <div className='project-right'>
-                <h1>{name}</h1>
+                <h1 class="project-name">{name}</h1>
                 <div className='project'>
                     <div className='right-large'>
                         <p>
@@ -27,13 +27,15 @@ const ProjectRight = (props) => {
                             <a target="_blank" href={github}>GitHub</a> | <a target="_blank" href={live}>Live Site</a>
                         </h4>
                     </div>
-                    <img src={require('../../ProjectDisplay/Demos/' + source)} alt="" onClick={() => openAndStopScrolling()}/>
+                    <video autoPlay loop muted onClick={() => openAndStopScrolling()}>
+                        <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
+                    </video>
                     <div className='right-small'>
                         <p>
                             {desc}
                         </p>
                         <h4>
-                            <a target="_blank" href={github}>GitHub</a> | <a target="_blank" href={live}>Live Site</a>
+                            <a target="_blank" href={github}>GitHub</a> {live && <p>| <a target="_blank" href={live}>Live Site</a></p>}
                         </h4>
                     </div>
                 </div>
@@ -41,7 +43,9 @@ const ProjectRight = (props) => {
 
             <Modal open={isOpen} onClose={() => closeAndScroll()}>
                 <div>
-                    <img id="fullscreen-video" src={require('../../ProjectDisplay/Demos/' + source)} alt=""/>
+                    <video id="fullscreen-video" autoPlay loop muted>
+                        <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
+                    </video>
                     <p>Click anywhere to close.</p>
                 </div>
             </Modal>

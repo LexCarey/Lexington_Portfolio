@@ -1,0 +1,44 @@
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.hey ul div{
+    margin:0 !important ;
+}
+
+.spaced{
+    margin-left: .3em;
+}
+
+.hey{
+    height: 100vh;
+    max-height: 80vw;
+    min-height: 500px;
+}
+
+.hey li{
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 0.5s ease-in;
+    color: #CEFDFF;
+    font-size: 7vw;
+}
+
+.show{
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+}
+
+@media (min-width: 1100px){
+    .hey li{
+        font-size: 6em;
+    }
+    .hey{
+        max-height: 74.9vh;
+    }
+}

@@ -1,12 +1,15 @@
-ul{
-    list-style: none;
+.socials ul{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     width: 100%;
 }
 
-li{
+ul{
+    list-style: none;
+}
+
+.socials li{
     margin: 0 5px;
     display: flex;
     align-items: center;
@@ -14,11 +17,11 @@ li{
     color: white;
 }
 
-li a{
+.socials li a{
     color: white;
 }
 
-li a:hover{
+.socials li a:hover{
     transition: 200ms;
     transform: scale(1.2);
     color: #CEFDFF;

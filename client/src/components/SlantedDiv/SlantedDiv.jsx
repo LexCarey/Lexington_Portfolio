@@ -7,7 +7,7 @@ const SlantedDiv = (props) => {
     return (
         <div >
             <div className={`angle ${angleNumber}`}></div>
-            <div id={scroll} className={`center ${color} main-div`}>
+            <div id={scroll} className={`flex center ${color} main-div`}>
                 {content}
             </div>
         </div>

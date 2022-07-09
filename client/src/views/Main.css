@@ -5,24 +5,3 @@ html {
 body{
     background-color: #292426;
 }
-
-.center{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hey{
-    color: #CEFDFF;
-    font-size: 7.5vw;
-    height: 100vh;
-    max-height: 80vw;
-    min-height: 500px;
-}
-
-@media (min-width: 1100px){
-    .hey{
-        font-size: 6em;
-        max-height: 74.9vh;
-    }
-}

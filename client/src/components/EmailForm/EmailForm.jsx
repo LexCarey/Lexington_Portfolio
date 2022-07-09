@@ -44,7 +44,7 @@ export const EmailForm = () => {
                 label="Subject"
                 variant="filled"
                 name='subject'/>
-            <div className='flex'>
+            <div className='mail-input flex'>
                 <TextField
                 className='text-field marg-r-15'
                 fullWidth
