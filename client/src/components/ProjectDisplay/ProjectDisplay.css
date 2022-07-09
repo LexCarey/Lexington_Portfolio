@@ -12,12 +12,16 @@
     margin-bottom: 100px;
 }
 
+.projects h2{
+    color: #43707d;
+}
+
 .project h4{
     margin-top: 10px;
 }
 
 .project a{
-    color: #004346;
+    color: #CEFDFF;
 }
 
 .project a:hover{
@@ -55,7 +59,10 @@
     position: fixed;
     top: 0; bottom: 0; left: 0; right: 0;
     z-index: 9999;
-    color: black;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 2em;
+    font-weight: 600;
     display: flex;
     align-items: center;
     text-align: center;
@@ -67,7 +74,7 @@
 }
 
 .project-name{
-    color: #656f93;
+    color: #CEFDFF;
     font-family: 'Raleway', sans-serif;
     font-size: 2.2em;
 }

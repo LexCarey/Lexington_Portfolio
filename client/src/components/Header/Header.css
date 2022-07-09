@@ -8,7 +8,7 @@
 
 .header{
     position: fixed; top: 0; left: 0; right: 0;
-    background-color: #63585E;
+    background-color: #2f3238;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@
 }
 
 .options div:hover{
-    background-color: #53494f;
+    background-color: #393d45;
 }
 
 .name span{

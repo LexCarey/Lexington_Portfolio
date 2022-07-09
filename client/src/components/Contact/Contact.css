@@ -42,7 +42,12 @@ ul{
 }
 
 .contact h1{
-    color: white;
+    color: #CEFDFF;
+    margin-bottom: 2px;
+}
+
+.contact h2{
+    color: #43707d;
 }
 
 .text-left{

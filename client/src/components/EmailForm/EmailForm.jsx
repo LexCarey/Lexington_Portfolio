@@ -22,14 +22,14 @@ export const EmailForm = () => {
     const theme = createTheme({
         palette: {
             primary: {
-                main: '#8f9cca'
+                main: '#43707D'
             },
         },
     });
 
     const styles = {
         floatingLabelFocusStyle: {
-            color: "#8f9cca"
+            color: "#43707D"
         }
     }
 

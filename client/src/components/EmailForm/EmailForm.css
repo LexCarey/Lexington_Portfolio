@@ -6,8 +6,8 @@
 
 input[type=submit]{
     padding: 13px 50px;
-    background-color: #8f9cca;
-    color: white;
+    background-color: #CEFDFF;
+    color: #0C0D10;
     border: none;
     border-radius: 5px;
     font-size: 1em;
@@ -17,11 +17,11 @@ input[type=submit]{
 
 input[type=submit]:hover{
     transition: 350ms;
-    background-color: #a5afd5;
+    background-color: #bcfdff;
 }
 
 input[type=submit]:active{
-    background-color: #808fc4;
+    background-color: #a2fbfc;
 }
 
 .marg-r-15{

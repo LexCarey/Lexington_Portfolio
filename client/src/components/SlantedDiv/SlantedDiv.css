@@ -12,18 +12,18 @@
 }
 
 .color1{
-    background-color: #CEFDFF;
-    color: #292426;
+    background-color: #0c0d10;
+    color: white;
 }
 
 .color2{
-    background-color: #B9C0DA;
-    color: #004346;
+    background-color: #151619;
+    color: white;
 }
 
 .color3{
-    background-color: #004346;
-    color: #B9C0DA;
+    background-color: #0c0d10;
+    color: white;
 }
 
 
@@ -42,11 +42,11 @@
 }
 
 .angle1 {
-    background-color: #292426;
+    background-color: #151619;
 }
 
 .angle1:after {
-    background-color: #CEFDFF;
+    background-color: #0c0d10;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -69,11 +69,11 @@
 }
 
 .angle2 {
-    background-color: #CEFDFF;
+    background-color: #0c0d10;
 }
 
 .angle2:after {
-    background-color: #B9C0DA;
+    background-color: #151619;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(69% 84%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
@@ -96,11 +96,11 @@
 }
 
 .angle3 {
-    background-color: #B9C0DA;
+    background-color: #151619;
 }
 
 .angle3:after {
-    background-color: #004346;
+    background-color: #0c0d10;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(24% 40%, 71% 19%, 100% 47%, 100% 100%, 0 100%, 0 0);
