@@ -10,7 +10,7 @@ const About = () => {
             <div className='about'>
 
                 <div className='about1'>
-                    <img src={require('./imgs/glasses.jpeg')} alt="Pic of Me!" />
+                    <img src={require('./imgs/about.jpeg')} alt="Pic of Me!" />
                 </div>
                 <div className='about2'>
                 <h1>Who is Lexington?</h1>
