@@ -12,12 +12,12 @@
 }
 
 .color1{
-    background-color: #0c0d10;
+    background-color: #101115;
     color: white;
 }
 
 .color2{
-    background-color: #151619;
+    background-color: #0f1015;
     color: white;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .angle1:after {
-    background-color: #0c0d10;
+    background-color: #101115;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
@@ -69,11 +69,11 @@
 }
 
 .angle2 {
-    background-color: #0c0d10;
+    background-color: #101115;
 }
 
 .angle2:after {
-    background-color: #151619;
+    background-color: #0f1015;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(69% 84%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
@@ -96,7 +96,7 @@
 }
 
 .angle3 {
-    background-color: #151619;
+    background-color: #0f1015;
 }
 
 .angle3:after {

@@ -11,7 +11,6 @@ const IntroAnimation = () => {
             Array.from(letters).forEach((letter, i) => {
                 setTimeout(() => {
                     letter.classList.add("show")
-                    console.log("added show to " + letter)
                 }, i * 50)
             })
         }, 200)
