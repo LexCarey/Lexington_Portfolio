@@ -19,7 +19,7 @@ const IntroAnimation = () => {
 
     return (
         <div id="intro" className='center hey flex'>
-            <ul className='center flex flex-col'>
+            <ul className='center flex flex-col italicezed'>
                 <div className='flex center'>
                     <li>H</li>
                     <li>e</li>

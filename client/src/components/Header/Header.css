@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .header{
@@ -29,7 +29,7 @@
 @media (min-width: 700px){
     .just-initials{
         transition: transform 1s 0s;
-        transform: translateX(-131px);
+        transform: translateX(-121px);
     }
 }
 

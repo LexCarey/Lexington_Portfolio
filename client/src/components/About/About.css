@@ -15,6 +15,12 @@
     padding: 0 25px;
 }
 
+.about-me h1{
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
 .about1{
     height: 100%;
     margin-right: 25px;
@@ -34,6 +40,8 @@
 .about2 h1{
     color: #43707d;
     margin-bottom: 8px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
 }
 
 @media (max-width: 700px){

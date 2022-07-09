@@ -4,22 +4,6 @@
     text-align: right;
 }
 
-/* .email-form input[type=text], .email-form input[type=email], .email-form textarea{
-    padding: 15px;
-    border: none;
-    border-bottom: 3px solid #8f9cca;
-    font-size: 1em;
-} */
-
-/* textarea{
-    resize: none;
-    margin-bottom: 10px;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-} */
-
 input[type=submit]{
     padding: 13px 50px;
     background-color: #8f9cca;

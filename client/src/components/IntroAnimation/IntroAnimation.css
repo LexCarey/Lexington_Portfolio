@@ -26,7 +26,13 @@
     transform: translateY(-50px);
     transition: all 0.5s ease-in;
     color: #CEFDFF;
-    font-size: 7vw;
+    font-size: 8vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.italicezed{
+    font-style: italic;
+    font-weight: 600;
 }
 
 .show{
@@ -34,9 +40,9 @@
     transform: translateY(0px) !important;
 }
 
-@media (min-width: 1100px){
+@media (min-width: 1400px){
     .hey li{
-        font-size: 6em;
+        font-size: 7em;
     }
     .hey{
         max-height: 74.9vh;
