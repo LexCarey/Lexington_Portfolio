@@ -17,7 +17,7 @@
 }
 
 .color2{
-    background-color: #0f1015;
+    background-color: #0e0f14;
     color: white;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .angle2:after {
-    background-color: #0f1015;
+    background-color: #0e0f14;
     display: flex;
     justify-content: center;
     -webkit-clip-path: polygon(69% 84%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
@@ -96,7 +96,7 @@
 }
 
 .angle3 {
-    background-color: #0f1015;
+    background-color: #0e0f14;
 }
 
 .angle3:after {

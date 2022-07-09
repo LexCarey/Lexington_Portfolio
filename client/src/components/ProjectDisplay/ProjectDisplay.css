@@ -35,11 +35,11 @@
     align-self: flex-start;
 }
 
-.project-left video, .project-left img{
+.project-left video{
     margin-right: 10px;
 }
 
-.project-right video, .project-right img{
+.project-right video{
     margin-left: 10px;
 }
 
@@ -100,5 +100,8 @@
     }
     .right-small{
         display: block;
+    }
+    .project-left video, .project-right video{
+        margin: 0;
     }
 }
