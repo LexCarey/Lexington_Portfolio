@@ -19,7 +19,7 @@ const ProjectLeft = (props) => {
             <div className='project-left'>
                 <h1 class="project-name">{name}</h1>
                 <div className='project'>
-                    <video autoPlay loop muted onClick={() => openAndStopScrolling()}>
+                    <video autoPlay loop muted webkit-playsinline playsinline onClick={() => openAndStopScrolling()}>
                         <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
                     </video>
                     <div>
@@ -27,7 +27,7 @@ const ProjectLeft = (props) => {
                             {desc}
                         </p>
                         <h4>
-                            <a target="_blank" href={github}>GitHub</a> {live && <p>| <a target="_blank" href={live}>Live Site</a></p>}
+                            <a target="_blank" href={github}>GitHub</a> {live && <>| <a target="_blank" href={live}>Live Site</a></>}
                         </h4>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const ProjectLeft = (props) => {
 
             <Modal open={isOpen} onClose={() => closeAndScroll()}>
                 <div>
-                    <video id="fullscreen-video" autoPlay loop muted>
+                    <video id="fullscreen-video" autoPlay loop muted webkit-playsinline playsinline>
                         <source src={require('../../ProjectDisplay/Demos/' + source)} type="video/mp4" />
                     </video>
                     <p>Click anywhere to close.</p>

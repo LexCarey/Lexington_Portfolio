@@ -24,6 +24,9 @@
     .not-initials, .not-initials2{
         display: none;
     }
+    .options div{
+        padding: 20px 15px !important;
+    }
 }
 
 @media (min-width: 700px){
